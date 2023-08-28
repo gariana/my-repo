@@ -19,3 +19,8 @@ body {
 .label {
   margin: 20px 0;
 }
+.me {
+}
+.box {
+  box-shadow: 33px 32px 0px -4px rgba(32, 33, 47, 0.1);
+}
