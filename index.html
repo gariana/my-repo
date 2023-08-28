@@ -4,55 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi perfil</title>
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
+    
+      <header>
+      <div class="header">
+        <nav>
+          <ul>
+            <li><a href="#">Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Hire me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main>
-    <div>
-      <h1>Mi perfil</h1>
-      <img
-        src="./img/20230320_011111.jpg"
-        alt="Foto de perfil"
-        width="7%"
-        height="7%"
-      />
-      <h2>Información personal</h2>
+    <div class="container">
+      <h1>Me</h1>
+      <div class="photo-profile">
+     </div>
+      <div>
       <ul>
-        <li><b>Edad:</b> 23</li>
-        <li><b>Nombre:</b> Ariana</li>
-        <li><b>Apellido:</b> Gonzalez</li>
+        <li><b>Age:</b> 23</li>
+        <li><b>Name:</b> Ariana</li>
+        <li><b>Last name:</b> Gonzalez</li>
         <li><b>Mail:</b> gonzalezz0305@gmail.com</li>
       </ul>
     </div>
+    </div>
     <hr />
-    <div>
-      <h2>Sobre mí</h2>
+    <div class="container">
+      <h2>About me</h2>
       <p>
-        Soy estudiante de Desarrollo de Software en Saenz Peña, Chaco. Estoy
-        haciendo este curso porque quiero aprender más sobre programación, me
-        gusta la tecnología, en mis tiempos libres me gusta jugar al padel.
+        I'm a Software Developer student in Chaco, Argentina. I like programing, I like technology, in my free times i like play paddle.
       </p>
     </div>
     <hr>
-    <div>
+    <div class="container">
 
-      <h3>Contacto</h3>
+      <h3>Contact me</h3>
 
       <form>
-        <div>
-            <label for="nombre">Nombre:</label>
+        <div class="label">
+            <label for="nombre">Name:</label>
             <input type="text" name="nombre" id="nombre" placeholder="Juan" />
          </div>
-
-         <div>
-            <label for="email">Email</label>
+         <div class="label">
+            <label for="email">Mail</label>
             <input type="email" name="email" id="email" placeholder="juanperez@hotmail.com"/>
          </div>
-         <div>
-            <label for="mensaje">Mensaje:</label>
+         <div class="label">
+            <label for="mensaje">Message:</label>
             <br>
             <textarea name="mensaje" id="mensaje" cols="80" rows="5"></textarea>
          </div>
-         <input type="submit" value="Enviar">
+         <input type="submit" value="Send">
     </div>
 </form>
     <hr />

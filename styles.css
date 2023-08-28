@@ -1,0 +1,21 @@
+body {
+  background: #131415;
+  color: #ffffff;
+}
+.container {
+  background-color: #282828;
+  padding: 16px;
+  border-radius: 16px;
+  width: fit-content;
+  margin: 20px 0;
+}
+.header {
+  background-color: #282828;
+  padding: 16px;
+  border-radius: 16px;
+  width: auto;
+  margin: 20px 0;
+}
+.label {
+  margin: 20px 0;
+}
