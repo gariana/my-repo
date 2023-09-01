@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 body {
   background: #131415;
   color: #ffffff;
+  font-family: poppins;
 }
 .container {
   background-color: #282828;
@@ -15,6 +18,22 @@ body {
   border-radius: 16px;
   width: auto;
   margin: 20px 0;
+  text-align: right;
+}
+.ul {
+  list-style: none;
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+}
+.ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.ul li a {
+  text-decoration: none;
+  color: white;
 }
 .label {
   margin: 20px 0;
